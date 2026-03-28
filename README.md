@@ -33,8 +33,11 @@ The project follows a **Modular Design Pattern**, separating data, logic, and us
 
 
 ### Budget Alert System
+THIS SYSTEM IS INIALIZED LATER ON AS IT WAS NOT FIRST AVAILABLE DUE TO WHICH THE ITEMS OF ANY BUDGET COULD BE BOUGHT BY THE STUDENTS WITHOUT ANY MONTHLY LIMIT
 ---
+<img width="808" height="757" alt="image" src="https://github.com/user-attachments/assets/68206748-0054-4ebc-8bc0-1a20144c93a5" />
 
+---
 ## Installation & Execution
 
 ### Prerequisites
