@@ -1,11 +1,11 @@
-# 🎓 ScholarSpend v1.0
+# ScholarSpend v1.0
 ### *Secure. Local. Persistent. Student Finance Tracking.*
 
 **ScholarSpend** is a robust Java-based Command Line Interface (CLI) application designed to bridge the gap between fixed scholarship income and the complexities of daily student expenditures. Unlike cloud-heavy apps, ScholarSpend focuses on privacy and simplicity, storing all financial data locally on the user's machine.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 - **Real-Time Budgeting:** Automatically tracks spending against a predefined $1000 monthly scholarship threshold.
 - **Data Persistence:** Integrated File I/O system ensures all expenses are saved to `expenses.txt` and reloaded upon startup.
 - **Categorized Logging:** Organize your spending into categories like *Food*, *Books*, *Rent*, or *Travel*.
@@ -14,7 +14,7 @@
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 The project follows a **Modular Design Pattern**, separating data, logic, and user interaction:
 
 | Component | Responsibility |
@@ -26,7 +26,7 @@ The project follows a **Modular Design Pattern**, separating data, logic, and us
 
 ---
 
-## 📸 Visuals & Demonstration
+## Visuals & Demonstration
 
 ### Main Dashboard
 <img width="676" height="886" alt="image" src="https://github.com/user-attachments/assets/f5617a87-f048-485a-846f-6d64f8f7b4d6" />
@@ -35,7 +35,7 @@ The project follows a **Modular Design Pattern**, separating data, logic, and us
 ### Budget Alert System
 ---
 
-## ⚙️ Installation & Execution
+## Installation & Execution
 
 ### Prerequisites
 - **Java Development Kit (JDK) 17 or higher**
