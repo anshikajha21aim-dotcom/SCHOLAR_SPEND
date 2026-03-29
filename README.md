@@ -51,4 +51,5 @@ THIS SYSTEM IS INIALIZED LATER ON AS IT WAS NOT FIRST AVAILABLE DUE TO WHICH THE
 ### Running the Project
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/anshikajha21aim-dotcom/ScholarSpend-Java.git](https://github.com/anshikajha21aim-dotcom/SCHOLAR_SPEND.git)
+   git clone
+   (https://github.com/anshikajha21aim-dotcom/SCHOLAR_SPEND)
