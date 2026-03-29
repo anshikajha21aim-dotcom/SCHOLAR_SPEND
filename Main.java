@@ -6,7 +6,7 @@ public class Main {
         FinanceManager manager = new FinanceManager();
 
         while (true) {
-            System.out.println("\n--- 🎓 ScholarSpend v1.1 ---");
+            System.out.println("\n--- ScholarSpend v1.1 ---");
             System.out.println("1. Add Expense\n2. View Summary\n3. Exit");
             System.out.print("Action: ");
             
@@ -22,7 +22,7 @@ public class Main {
                 if (manager.canAfford(amt)) {
                     manager.addExpense(new Expense(desc, amt, cat));
                 } else {
-                    System.out.println("\n❌ TRANSACTION DENIED!");
+                    System.out.println("\n TRANSACTION DENIED!");
                     System.out.println("Reason: This item ($" + amt + ") exceeds your remaining budget of $" + manager.getRemainingBudget());
                     System.out.println("Try a cheaper alternative or wait for next month.");
                 }
