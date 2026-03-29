@@ -20,15 +20,15 @@ public class FinanceManager {
     public void addExpense(Expense e) {
         expenses.add(e);
         FileHandler.saveToFile(expenses);
-        System.out.println("✅ Expense tracked successfully!");
+        System.out.println("Expense tracked successfully!");
     }
 
     public void showSummary() {
         if (expenses.isEmpty()) {
-            System.out.println("📭 No data yet.");
+            System.out.println("No data yet.");
             return;
         }
-        System.out.println("\n--- 💸 EXPENSE HISTORY ---");
+        System.out.println("\n--- EXPENSE HISTORY ---");
         for (Expense e : expenses) {
             System.out.println(e);
         }
