@@ -9,13 +9,18 @@ public class Expense {
         this.category = category;
     }
 
-    // This converts the object into a readable string for the menu
+    // THIS IS THE MISSING PIECE!
+    public String toFileFormat() {
+        return description + "," + amount + "," + category;
+    }
+
     @Override
     public String toString() {
+        // Formats the output nicely: [Category] Description | $Amount
         return String.format("[%s] %-15s | $%.2f", category, description, amount);
     }
 
-    // Getters
-    public double getAmount() { return amount; }
-    public String getCategory() { return category; }
+    public double getAmount() { 
+        return amount; 
+    }
 }
