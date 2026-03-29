@@ -1,3 +1,7 @@
+NAME : ANSHIKA
+REGISTRATION NUMBER : 24BAI10333
+PROGRAMMING IN JAVA PROJECT VITYARTHI
+
 # ScholarSpend v1.0
 ### *Secure. Local. Persistent. Student Finance Tracking.*
 
